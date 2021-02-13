@@ -1,0 +1,144 @@
+/**
+*  Website NAME
+* author: KAWSER AHAMED
+* version: 0.0.1
+* Date: 06-02-2021
+**/
+
+/* ============================
+        DEFULTE CSS
+ ============================ */
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+body{
+    font-family: "Helvetica Neue",Helvetica,;
+    display: flex;
+    flex-direction: column;
+}
+a{
+      text-decoration: none;
+}
+li{
+      list-style: none;
+}
+p{
+      font-size: 16px;
+      padding: 10px 0;
+}
+h2{
+      padding: 20px 0;
+}
+h3{
+      padding: 10px 0;
+}
+
+
+ /* ============================
+        START HEAEDR SECTION
+ ============================ */
+header{
+      background: rgb(7, 130, 146);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 20px;
+}
+header ul{
+      display: flex;
+}
+header li{
+      padding: 0 20px;
+}
+header ul li a{
+      color: #fff;
+      font-size: 22px;
+}
+
+.logo a{
+      font-size: 30px;
+      color: #fff;
+}
+
+  /* ============================
+       START BENNAR SECTION
+ ============================ */
+ .main{
+       display: flex;
+       justify-content: space-between;
+ }
+ aside {
+      background: rgb(79, 211, 204);
+      flex-basis: 15%;
+  }
+.services-container{
+      display: flex;
+      justify-content: space-between;
+}
+.services-box{
+      border: 1px solid #ccc;
+      padding: 10px;
+      max-width: 370px;
+      flex-basis: 32%;
+      display: flex;
+      flex-direction: column;
+}
+.services-box img{
+      width: 100%;
+}
+.sidebar ul li a{
+      color: #566c2b;
+      padding: 10px;
+      display: block;
+      border-bottom: 1px solid rgb(128, 128, 128);
+      text-transform: capitalize;
+}
+
+article {
+      flex-basis: 82%;
+  }
+
+
+.button a {
+      display: inline-block;
+      background:#078292;
+      padding: 16px 44px;
+      border-radius: 5px;
+      color: #fff;
+  }
+
+
+
+  .watch-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin-top: 3em;
+  }
+  
+  .watch {
+    margin-bottom: 3em;
+  }
+  
+ 
+  .watch-info {
+      margin-top: 13px;
+  }
+  
+  .watch-info p {
+      font-size: 0.85em;
+      font-weight: 500;
+      margin-top: 2px;
+  }
+  
+  
+  
+  /*Footer*/
+  
+  footer {
+      background: #867154;
+      padding: 19px;
+      text-align: center;
+  }
